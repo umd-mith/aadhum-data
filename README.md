@@ -2,7 +2,7 @@
 First get the data:
 
 ```
-aws --profile s3 sync s3://aadhum data
+aws s3 sync s3://aadhum data
 ```
 
 This should get the AADHUM digitized content on Amazon S3. The data is organized by collection, folder number and then item.
