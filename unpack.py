@@ -3,8 +3,6 @@
 """
 Used to copy data of delivered disks and put into a folder directory
 structure.
-
-
 """
 
 import os
