@@ -8,89 +8,64 @@ import json
 import yaml
 import hashlib
 
+from glob import glob
 from iiif_prezi.factory import ManifestFactory
 
-config = yaml.load(open("config.yaml"))
+BASE_URL = "http://aadhum.mith.us"
+MANIFEST_BASE = BASE_URL + '/manifests/'
+IMAGE_BASE = BASE_URL + '/images/'
 
 def generate(coll):
     mf = ManifestFactory()
-    mf.set_base_prezi_uri(config['hostname'])
+    mf.set_base_prezi_uri(MANIFEST_BASE)
+    mf.set_base_image_uri(IMAGE_BASE)
     mf.set_iiif_image_info(2.0, 0)
 
-    last_item_id = None
     manifest = None
     seq = None
     page_num = 0
 
-    for folder in glob(os.path.join('data', coll)):
+    for folder in glob("data/%s/*" % coll):
+        jpegs = glob(folder + "/*.jpg")
+        jpegs.sort()
+        folder_name = os.path.basename(folder)
+        title = "%s-%s" % (coll, folder_name)
+        item_id = title
 
-        files = filter(glob(folder + "/*.jpg"))
+        manifest = mf.manifest(label=title)
+        manifest.set_metadata({
+            "title": title
+        })
+        seq = manifest.sequence()
+        page_num = 0
+ 
+        for jpeg in jpegs:
 
-        print(folder, files)
+            image_info = generate_tiles(jpeg)
+            if not image_info:
+                break
 
-    """
-    for row in csv.reader(open("data.csv")):
 
-        # only interested in images
-        if row[4].startswith('.') or not row[4].lower().endswith('.jpg'):
-            continue
+            page_num += 1
+            id = BASE_URL + "/%s/%s/%s" % (coll, folder_name, page_num)
 
-        # unpack the metadata
-        site, archive, locator, item_type, filename, title = row[0:6]
-        
-        # only processing things with titles
-        if not title:
-            continue
+            canvas = seq.canvas(
+                ident=id + "/canvas",
+                label=os.path.basename(jpeg).replace('.jpg', '')
+            )
+            canvas.thumbnail = get_thumbnail(image_info)
 
-        # only processing things where we can find the path
-        image_path = os.path.join(config["data"], *row[0:5])
-        if not os.path.isfile(image_path):
-            continue
+            rel_path = image_info['@id'].replace(IMAGE_BASE, '')
 
-        title = "%s - %s" % (site, title)
-        item_id = slugify(title)
+            anno = canvas.annotation(ident=id + "/annotation")
+            image = anno.image(ident=rel_path, iiif=True)
+            image.height = image_info['height']
+            image.width = image_info['width']
 
-        image_info = generate_tiles(image_path)
-        if not image_info:
-            break
+            canvas.height = image.height
+            canvas.width = image.width
 
-        # when the title changes that's our queue to write the manifest
-        if not manifest or item_id != last_item_id:
-            if manifest:
-                write_manifest(manifest, item_id)
-            manifest = mf.manifest(label=title)
-            manifest.location = archive
-            manifest.set_metadata({
-                "title": title,
-                "archive": archive,
-                "locator": locator,
-                "type": item_type
-            })
-            seq = manifest.sequence()
-            page_num = 0
-     
-        # add the image to the manifest sequence
-
-        page_num += 1
-        canvas = seq.canvas(
-            ident="page-%s" % page_num, 
-            label="Page %s" % page_num
-        )
-        canvas.thumbnail = get_thumbnail(image_info)
-
-        anno = canvas.annotation()
-        image = anno.image(image_info['@id'], iiif=True)
-        image.height = image_info['height']
-        image.width = image_info['width']
-
-        canvas.height = image.height
-        canvas.width = image.width
-
-        last_item_id = item_id
-
-    # write the last one
-    write_manifest(manifest, item_id)
-    """
+        write_manifest(manifest, item_id)
 
 
 def id(path):
@@ -102,17 +77,22 @@ def id(path):
 
 
 def get_image_url(id):
-    return "%s/images/tiles/%s" % (config['hostname'], id)
+    return "%s/images/%s" % (BASE_URL, id)
 
 
 def generate_tiles(image_path):
     image_id = id(image_path)
     image_url = get_image_url(image_id)
-    local_path = os.path.join(".", "images", "tiles", image_id)
+    local_path = os.path.join(".", "images", image_id)
 
     if not os.path.isdir(local_path):
-        tiles = iiif.static.IIIFStatic(src=image_path, dst="./images/tiles",
-                tilesize=1024, api_version="2.0")
+        tiles = iiif.static.IIIFStatic(
+            src=image_path,
+            dst="./images",
+            tilesize=1024,
+            api_version="2.0"
+        )
+        print(image_path, image_id)
         tiles.generate(image_path, identifier=image_id)
 
     info_json = os.path.join(local_path, "info.json")
@@ -136,7 +116,7 @@ def write_manifest(manifest, item_id):
         index = []
     index.append({
         "manifestUri": "/manifests/%s.json" % item_id,
-        "location": manifest.location
+        "location": item_id
     })
     json.dump(index, open(index_file, "w"), indent=2)
     print("wrote manifests/%s.json" % item_id)
@@ -145,8 +125,19 @@ def write_manifest(manifest, item_id):
 def get_thumbnail(image_info):
     w = str(image_info["sizes"][0]["width"])
     image_url = image_info["@id"].strip("/")
-    return "%s/full/%s,/0/default.jpg" % (image_url, w)
+    return {
+        "@id": "%s/full/%s,/0/default.jpg" % (image_url, w),
+        "service": {
+            "@context": image_info["@context"],
+            "@id": image_info["@id"],
+            "profile": image_info["profile"]
+        }
+    }
 
 
 if __name__ == "__main__":
+    if not os.path.isdir('manifests'):
+        os.mkdir('manifests')
+    if os.path.isfile('manifests/index.json'):
+        os.remove('manifests/index.json')
     generate('mdu')
