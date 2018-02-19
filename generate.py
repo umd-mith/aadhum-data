@@ -3,6 +3,7 @@
 import os
 import re
 import csv
+import sys
 import iiif
 import json
 import yaml
@@ -28,6 +29,9 @@ def generate(coll):
     for folder in glob("data/%s/*" % coll):
         jpegs = glob(folder + "/*.jpg")
         jpegs.sort()
+        if len(jpegs) == 0:
+            continue
+
         folder_name = os.path.basename(folder)
         title = "%s-%s" % (coll, folder_name)
         item_id = title
@@ -136,8 +140,7 @@ def get_thumbnail(image_info):
 
 
 if __name__ == "__main__":
+    coll = sys.argv[1]
     if not os.path.isdir('manifests'):
         os.mkdir('manifests')
-    if os.path.isfile('manifests/index.json'):
-        os.remove('manifests/index.json')
-    generate('mdu')
+    generate(coll)

@@ -1,5 +1,20 @@
+Configure the softwre:
 
-First get the data:
+```
+apt-get install python3-pip
+pip3 install pipenv
+git clone https://github.com/umd-mith/aadhum-data.git
+cd aadhum-data
+pipenv install --three
+```
+
+Configure AWS keys:
+
+```
+aws configure
+```
+
+Get the data:
 
 ```
 aws s3 sync s3://aadhum data
@@ -37,4 +52,10 @@ data
     │   ├── 0012.jpg
     │   ├── 0013.jpg
 ...
+```
+
+Now generate the IIIF manifests:
+
+```
+./generate.py
 ```
