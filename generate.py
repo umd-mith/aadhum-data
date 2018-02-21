@@ -17,6 +17,8 @@ MANIFEST_BASE = BASE_URL + '/manifests/'
 IMAGE_BASE = BASE_URL + '/images/'
 
 def generate(coll):
+    metadata = get_metadata()
+
     mf = ManifestFactory()
     mf.set_base_prezi_uri(MANIFEST_BASE)
     mf.set_base_image_uri(IMAGE_BASE)
@@ -33,13 +35,18 @@ def generate(coll):
             continue
 
         folder_name = os.path.basename(folder)
-        title = "%s-%s" % (coll, folder_name)
-        item_id = title
+        item_id = "%s-%s" % (coll, folder_name)
 
+        folder_metadata = metadata.get(item_id, {})
+        title = folder_metadata.get('Title', item_id)
         manifest = mf.manifest(label=title)
-        manifest.set_metadata({
-            "title": title
-        })
+
+        desc = folder_metadata.get('Description/Summary')
+        if desc:
+            manifest.set_description(desc)
+
+        manifest.set_metadata(folder_metadata)
+
         seq = manifest.sequence()
         page_num = 0
  
@@ -69,7 +76,7 @@ def generate(coll):
             canvas.height = image.height
             canvas.width = image.width
 
-        write_manifest(manifest, item_id)
+        write_manifest(manifest, coll, item_id)
 
 
 def id(path):
@@ -106,24 +113,33 @@ def generate_tiles(image_path):
     return info
 
 
-def write_manifest(manifest, item_id):
+def write_manifest(manifest, coll, item_id):
     with open("manifests/%s.json" % item_id, "w") as fh:
         fh.write(manifest.toString(compact=False))
 
     # add the manifest to our index of manifests
     # TODO: make it a iiif:Collection
 
-    index_file = "manifests/index.json"
+    index_file = "manifests/%s.json" % coll
     if os.path.isfile(index_file):
         index = json.load(open(index_file))
     else:
         index = []
     index.append({
         "manifestUri": "/manifests/%s.json" % item_id,
-        "location": item_id
+        "location": manifest.label
     })
+    index.sort(key=lambda m: m['location'], reverse=True)
     json.dump(index, open(index_file, "w"), indent=2)
     print("wrote manifests/%s.json" % item_id)
+
+
+def get_metadata():
+    metadata = {}
+    for row in csv.DictReader(open('selection/shipment-01.csv')):
+        if 'FilenameRoot' in row and row['FilenameRoot']:
+            metadata[row['FilenameRoot']] = row
+    return metadata
 
 
 def get_thumbnail(image_info):

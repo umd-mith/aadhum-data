@@ -1,46 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="stylesheet" type="text/css" href="mirador/css/mirador-combined.css">
     <title>AADHUM Data</title>
-    <style type="text/css">
-     #viewer {
-       width: 100%;
-       height: 100%;
-       position: fixed;
-     }
+    <style>
+      body {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+      }
+      img {
+        height: 50vh;
+        margin: 25px;
+        border-radius: 100px;
+      }
     </style>
   </head>
   <body>
-    <div id="viewer"></div>
-
-    <script src="mirador/mirador.min.js"></script>
-    <script type="text/javascript">
-
-     $(function() {
-       $.getJSON('./manifests/index.json', function(data) {
-         myMiradorInstance = Mirador({
-           id: "viewer",
-           layout: "1x1",
-           buildPath: "mirador/",
-           data: data,
-           windowObjects: [
-             {
-               loadedManifest: "http://aadhum.mith.us/manifests/mdu-062679.json",
-               canvasID: "http://aadhum.mith.us/mdu/062679/1/canvas",
-               viewType: "ImageView",
-             }
-           ],
-           // saveSession: true,
-           annotationEndpoint: {
-             name:"Local Storage",
-             module: "LocalStorageEndpoint"
-           }
-         });
-       });
-     });
-    </script>
+    <a href="labor.html"><img src="/images/afl-cio.png"></a>
+    <a href="mdu.html"><img src="/images/driskell.jpg"></a>
   </body>
 </html>
