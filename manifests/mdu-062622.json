@@ -1,0 +1,552 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://aadhum.mith.us/manifests/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "O'Keeffe, Georgia, 1968-1981",
+  "metadata": [
+    {
+      "label": "",
+      "value": ""
+    },
+    {
+      "label": "Returned in Box",
+      "value": "5"
+    },
+    {
+      "label": "Extent",
+      "value": "8"
+    },
+    {
+      "label": "Geographic coverage",
+      "value": ""
+    },
+    {
+      "label": "Archival Collection",
+      "value": "David C. Driskell Papers"
+    },
+    {
+      "label": "Box",
+      "value": "31"
+    },
+    {
+      "label": "Temporal Coverage",
+      "value": ""
+    },
+    {
+      "label": "Contributor Role",
+      "value": ""
+    },
+    {
+      "label": "RequestedActions",
+      "value": ""
+    },
+    {
+      "label": "Date Attribute",
+      "value": "1968-1981"
+    },
+    {
+      "label": "Title",
+      "value": "O'Keeffe, Georgia, 1968-1981"
+    },
+    {
+      "label": "Filename from vendor",
+      "value": ""
+    },
+    {
+      "label": "Creator",
+      "value": ""
+    },
+    {
+      "label": "Rights Holder",
+      "value": ""
+    },
+    {
+      "label": "Rights",
+      "value": ""
+    },
+    {
+      "label": "MediaType",
+      "value": "Text"
+    },
+    {
+      "label": "Description/Summary",
+      "value": "Correspondence between David C. Driskell and Georgia O'Keeffe"
+    },
+    {
+      "label": "Shipment Box",
+      "value": "Driskell_Box5 "
+    },
+    {
+      "label": "AccessionNumber",
+      "value": "MS2011.01"
+    },
+    {
+      "label": "Subseries",
+      "value": ""
+    },
+    {
+      "label": "Date or Date range",
+      "value": "1968-1981"
+    },
+    {
+      "label": "Creator Role",
+      "value": ""
+    },
+    {
+      "label": "Notes",
+      "value": ""
+    },
+    {
+      "label": "Reshelved",
+      "value": "yes"
+    },
+    {
+      "label": "Format",
+      "value": ""
+    },
+    {
+      "label": "Folder",
+      "value": "3"
+    },
+    {
+      "label": "Alternate Title",
+      "value": ""
+    },
+    {
+      "label": "Series",
+      "value": "Series 5: Artists and Individuals"
+    },
+    {
+      "label": "Subject",
+      "value": ""
+    },
+    {
+      "label": "Changed on Drive",
+      "value": ""
+    },
+    {
+      "label": "PersonalSubject URI",
+      "value": ""
+    },
+    {
+      "label": "Provider/Publisher",
+      "value": ""
+    },
+    {
+      "label": "CorpSubject URI",
+      "value": ""
+    },
+    {
+      "label": "FilenameRoot",
+      "value": "mdu-062622"
+    },
+    {
+      "label": "PersonalSubject",
+      "value": ""
+    },
+    {
+      "label": "Contributor",
+      "value": ""
+    },
+    {
+      "label": "Item",
+      "value": ""
+    },
+    {
+      "label": "CorpSubject",
+      "value": ""
+    },
+    {
+      "label": "InspectionNotes",
+      "value": ""
+    },
+    {
+      "label": "Subject URIs",
+      "value": ""
+    },
+    {
+      "label": "Filename adjustment",
+      "value": ""
+    },
+    {
+      "label": "DateAndInitials",
+      "value": ""
+    },
+    {
+      "label": "Language",
+      "value": ""
+    },
+    {
+      "label": "Identifier",
+      "value": ""
+    }
+  ],
+  "description": "Correspondence between David C. Driskell and Georgia O'Keeffe",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://aadhum.mith.us/mdu/062622/1/canvas",
+          "@type": "sc:Canvas",
+          "label": "0001",
+          "thumbnail": {
+            "@id": "http://aadhum.mith.us/images/59942de41f3a9c153151e75ede9cfdcd/full/549,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/59942de41f3a9c153151e75ede9cfdcd",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ]
+            }
+          },
+          "height": 3408,
+          "width": 4388,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/mdu/062622/1/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/59942de41f3a9c153151e75ede9cfdcd/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3408,
+                "width": 4388,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/59942de41f3a9c153151e75ede9cfdcd",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/mdu/062622/1/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/mdu/062622/2/canvas",
+          "@type": "sc:Canvas",
+          "label": "0002",
+          "thumbnail": {
+            "@id": "http://aadhum.mith.us/images/1e5d36dc2bf739eb63850de562e68ffd/full/425,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/1e5d36dc2bf739eb63850de562e68ffd",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ]
+            }
+          },
+          "height": 4392,
+          "width": 3400,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/mdu/062622/2/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/1e5d36dc2bf739eb63850de562e68ffd/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4392,
+                "width": 3400,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/1e5d36dc2bf739eb63850de562e68ffd",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/mdu/062622/2/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/mdu/062622/3/canvas",
+          "@type": "sc:Canvas",
+          "label": "0003",
+          "thumbnail": {
+            "@id": "http://aadhum.mith.us/images/1834c7c765be6d3cedc0ab196ee58a0f/full/423,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/1834c7c765be6d3cedc0ab196ee58a0f",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ]
+            }
+          },
+          "height": 4395,
+          "width": 3380,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/mdu/062622/3/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/1834c7c765be6d3cedc0ab196ee58a0f/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4395,
+                "width": 3380,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/1834c7c765be6d3cedc0ab196ee58a0f",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/mdu/062622/3/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/mdu/062622/4/canvas",
+          "@type": "sc:Canvas",
+          "label": "0004",
+          "thumbnail": {
+            "@id": "http://aadhum.mith.us/images/c3f944f2549116ce84c7b99a7efae980/full/575,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/c3f944f2549116ce84c7b99a7efae980",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ]
+            }
+          },
+          "height": 4024,
+          "width": 9200,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/mdu/062622/4/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/c3f944f2549116ce84c7b99a7efae980/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4024,
+                "width": 9200,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/c3f944f2549116ce84c7b99a7efae980",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/mdu/062622/4/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/mdu/062622/5/canvas",
+          "@type": "sc:Canvas",
+          "label": "0005",
+          "thumbnail": {
+            "@id": "http://aadhum.mith.us/images/c5934a24ceffa44448c2553866a5891f/full/551,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/c5934a24ceffa44448c2553866a5891f",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ]
+            }
+          },
+          "height": 3392,
+          "width": 4404,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/mdu/062622/5/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/c5934a24ceffa44448c2553866a5891f/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3392,
+                "width": 4404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/c5934a24ceffa44448c2553866a5891f",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/mdu/062622/5/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/mdu/062622/6/canvas",
+          "@type": "sc:Canvas",
+          "label": "0006",
+          "thumbnail": {
+            "@id": "http://aadhum.mith.us/images/dbddd89761fdeb907e2d9dd53d8df736/full/552,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/dbddd89761fdeb907e2d9dd53d8df736",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ]
+            }
+          },
+          "height": 3396,
+          "width": 4418,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/mdu/062622/6/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/dbddd89761fdeb907e2d9dd53d8df736/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3396,
+                "width": 4418,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/dbddd89761fdeb907e2d9dd53d8df736",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/mdu/062622/6/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/mdu/062622/7/canvas",
+          "@type": "sc:Canvas",
+          "label": "0007",
+          "thumbnail": {
+            "@id": "http://aadhum.mith.us/images/2b12cee6838d548ca9c850348a55c3b6/full/551,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/2b12cee6838d548ca9c850348a55c3b6",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ]
+            }
+          },
+          "height": 3392,
+          "width": 4409,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/mdu/062622/7/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/2b12cee6838d548ca9c850348a55c3b6/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3392,
+                "width": 4409,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/2b12cee6838d548ca9c850348a55c3b6",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/mdu/062622/7/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/mdu/062622/8/canvas",
+          "@type": "sc:Canvas",
+          "label": "0008",
+          "thumbnail": {
+            "@id": "http://aadhum.mith.us/images/a2e7304b7b313aafc631ce60791c52fa/full/554,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/a2e7304b7b313aafc631ce60791c52fa",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ]
+            }
+          },
+          "height": 3392,
+          "width": 4432,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/mdu/062622/8/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/a2e7304b7b313aafc631ce60791c52fa/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3392,
+                "width": 4432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/a2e7304b7b313aafc631ce60791c52fa",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/mdu/062622/8/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

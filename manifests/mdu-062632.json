@@ -1,0 +1,417 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://aadhum.mith.us/manifests/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Two Centuries - Agendas and Reports, 1974-1975",
+  "metadata": [
+    {
+      "label": "",
+      "value": ""
+    },
+    {
+      "label": "Returned in Box",
+      "value": "5"
+    },
+    {
+      "label": "Extent",
+      "value": "5"
+    },
+    {
+      "label": "Geographic coverage",
+      "value": ""
+    },
+    {
+      "label": "Archival Collection",
+      "value": "David C. Driskell Papers"
+    },
+    {
+      "label": "Box",
+      "value": "8"
+    },
+    {
+      "label": "Temporal Coverage",
+      "value": ""
+    },
+    {
+      "label": "Contributor Role",
+      "value": ""
+    },
+    {
+      "label": "RequestedActions",
+      "value": ""
+    },
+    {
+      "label": "Date Attribute",
+      "value": "1974-1975"
+    },
+    {
+      "label": "Title",
+      "value": "Two Centuries - Agendas and Reports, 1974-1975"
+    },
+    {
+      "label": "Filename from vendor",
+      "value": ""
+    },
+    {
+      "label": "Creator",
+      "value": ""
+    },
+    {
+      "label": "Rights Holder",
+      "value": ""
+    },
+    {
+      "label": "Rights",
+      "value": ""
+    },
+    {
+      "label": "MediaType",
+      "value": "Text"
+    },
+    {
+      "label": "Description/Summary",
+      "value": "Agendas and reports from planning of Two Centuries exhibition at LACMA"
+    },
+    {
+      "label": "Shipment Box",
+      "value": "Driskell_Box5 "
+    },
+    {
+      "label": "AccessionNumber",
+      "value": "MS2011.01"
+    },
+    {
+      "label": "Subseries",
+      "value": "Subseries 3: Curated by David C. Driskell"
+    },
+    {
+      "label": "Date or Date range",
+      "value": "1974-1975"
+    },
+    {
+      "label": "Creator Role",
+      "value": ""
+    },
+    {
+      "label": "Notes",
+      "value": ""
+    },
+    {
+      "label": "Reshelved",
+      "value": "yes"
+    },
+    {
+      "label": "Format",
+      "value": ""
+    },
+    {
+      "label": "Folder",
+      "value": "11"
+    },
+    {
+      "label": "Alternate Title",
+      "value": ""
+    },
+    {
+      "label": "Series",
+      "value": "Series 3: Exhibitions"
+    },
+    {
+      "label": "Subject",
+      "value": ""
+    },
+    {
+      "label": "Changed on Drive",
+      "value": ""
+    },
+    {
+      "label": "PersonalSubject URI",
+      "value": ""
+    },
+    {
+      "label": "Provider/Publisher",
+      "value": ""
+    },
+    {
+      "label": "CorpSubject URI",
+      "value": ""
+    },
+    {
+      "label": "FilenameRoot",
+      "value": "mdu-062632"
+    },
+    {
+      "label": "PersonalSubject",
+      "value": ""
+    },
+    {
+      "label": "Contributor",
+      "value": ""
+    },
+    {
+      "label": "Item",
+      "value": ""
+    },
+    {
+      "label": "CorpSubject",
+      "value": ""
+    },
+    {
+      "label": "InspectionNotes",
+      "value": ""
+    },
+    {
+      "label": "Subject URIs",
+      "value": ""
+    },
+    {
+      "label": "Filename adjustment",
+      "value": ""
+    },
+    {
+      "label": "DateAndInitials",
+      "value": "CSP08222017"
+    },
+    {
+      "label": "Language",
+      "value": ""
+    },
+    {
+      "label": "Identifier",
+      "value": ""
+    }
+  ],
+  "description": "Agendas and reports from planning of Two Centuries exhibition at LACMA",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://aadhum.mith.us/mdu/062632/1/canvas",
+          "@type": "sc:Canvas",
+          "label": "0001",
+          "thumbnail": {
+            "@id": "http://aadhum.mith.us/images/0a8ebbba9817f0ad50b89495399daaac/full/415,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/0a8ebbba9817f0ad50b89495399daaac",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ]
+            }
+          },
+          "height": 4347,
+          "width": 3316,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/mdu/062632/1/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/0a8ebbba9817f0ad50b89495399daaac/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4347,
+                "width": 3316,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/0a8ebbba9817f0ad50b89495399daaac",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/mdu/062632/1/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/mdu/062632/2/canvas",
+          "@type": "sc:Canvas",
+          "label": "0002",
+          "thumbnail": {
+            "@id": "http://aadhum.mith.us/images/5b799aba6ee6493291840415e1ab5e64/full/416,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/5b799aba6ee6493291840415e1ab5e64",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ]
+            }
+          },
+          "height": 4357,
+          "width": 3326,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/mdu/062632/2/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/5b799aba6ee6493291840415e1ab5e64/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4357,
+                "width": 3326,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/5b799aba6ee6493291840415e1ab5e64",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/mdu/062632/2/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/mdu/062632/3/canvas",
+          "@type": "sc:Canvas",
+          "label": "0003",
+          "thumbnail": {
+            "@id": "http://aadhum.mith.us/images/0ef94c2806fb3873a7335548857793f0/full/421,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/0ef94c2806fb3873a7335548857793f0",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ]
+            }
+          },
+          "height": 4391,
+          "width": 3366,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/mdu/062632/3/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/0ef94c2806fb3873a7335548857793f0/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4391,
+                "width": 3366,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/0ef94c2806fb3873a7335548857793f0",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/mdu/062632/3/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/mdu/062632/4/canvas",
+          "@type": "sc:Canvas",
+          "label": "0004",
+          "thumbnail": {
+            "@id": "http://aadhum.mith.us/images/2d9fc329dad0bcf4388013756be8bdbc/full/422,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/2d9fc329dad0bcf4388013756be8bdbc",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ]
+            }
+          },
+          "height": 4412,
+          "width": 3376,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/mdu/062632/4/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/2d9fc329dad0bcf4388013756be8bdbc/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4412,
+                "width": 3376,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/2d9fc329dad0bcf4388013756be8bdbc",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/mdu/062632/4/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/mdu/062632/5/canvas",
+          "@type": "sc:Canvas",
+          "label": "0005",
+          "thumbnail": {
+            "@id": "http://aadhum.mith.us/images/51c8bb4972bf1f080340e4920c437deb/full/422,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/51c8bb4972bf1f080340e4920c437deb",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ]
+            }
+          },
+          "height": 4380,
+          "width": 3373,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/mdu/062632/5/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/51c8bb4972bf1f080340e4920c437deb/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4380,
+                "width": 3373,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/51c8bb4972bf1f080340e4920c437deb",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/mdu/062632/5/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

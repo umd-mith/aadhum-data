@@ -1,0 +1,552 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://aadhum.mith.us/manifests/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Minority Contractors Meeting March 1979",
+  "metadata": [
+    {
+      "label": "Series",
+      "value": ""
+    },
+    {
+      "label": "RequestedActions",
+      "value": ""
+    },
+    {
+      "label": "Identifier",
+      "value": "aflcio_rg9_003_Box54_Folder9"
+    },
+    {
+      "label": "Reshelved",
+      "value": "yes"
+    },
+    {
+      "label": "",
+      "value": ""
+    },
+    {
+      "label": "Temporal Coverage",
+      "value": ""
+    },
+    {
+      "label": "AccessionNumber",
+      "value": ""
+    },
+    {
+      "label": "Contributor Role",
+      "value": ""
+    },
+    {
+      "label": "MediaType",
+      "value": "Text"
+    },
+    {
+      "label": "Subject URIs",
+      "value": ""
+    },
+    {
+      "label": "Rights Holder",
+      "value": ""
+    },
+    {
+      "label": "Format",
+      "value": ""
+    },
+    {
+      "label": "Geographic coverage",
+      "value": ""
+    },
+    {
+      "label": "Extent",
+      "value": "8"
+    },
+    {
+      "label": "InspectionNotes",
+      "value": ""
+    },
+    {
+      "label": "Date or Date range",
+      "value": "1979"
+    },
+    {
+      "label": "Creator Role",
+      "value": ""
+    },
+    {
+      "label": "Filename from vendor",
+      "value": ""
+    },
+    {
+      "label": "Creator",
+      "value": ""
+    },
+    {
+      "label": "Folder",
+      "value": "9"
+    },
+    {
+      "label": "Shipment Box",
+      "value": "Labor_Box2"
+    },
+    {
+      "label": "CorpSubject URI",
+      "value": ""
+    },
+    {
+      "label": "PersonalSubject URI",
+      "value": ""
+    },
+    {
+      "label": "Alternate Title",
+      "value": ""
+    },
+    {
+      "label": "Archival Collection",
+      "value": "aflcio_rg9_003"
+    },
+    {
+      "label": "DateAndInitials",
+      "value": ""
+    },
+    {
+      "label": "Contributor",
+      "value": ""
+    },
+    {
+      "label": "Subseries",
+      "value": ""
+    },
+    {
+      "label": "FilenameRoot",
+      "value": "labor-062534"
+    },
+    {
+      "label": "Changed on Drive",
+      "value": ""
+    },
+    {
+      "label": "Box",
+      "value": "54"
+    },
+    {
+      "label": "Title",
+      "value": "Minority Contractors Meeting March 1979"
+    },
+    {
+      "label": "Provider/Publisher",
+      "value": ""
+    },
+    {
+      "label": "Rights",
+      "value": ""
+    },
+    {
+      "label": "Subject",
+      "value": ""
+    },
+    {
+      "label": "Item",
+      "value": ""
+    },
+    {
+      "label": "Description/Summary",
+      "value": "Correspondence, notes (LIUNA, APRI)"
+    },
+    {
+      "label": "Date Attribute",
+      "value": ""
+    },
+    {
+      "label": "CorpSubject",
+      "value": ""
+    },
+    {
+      "label": "Returned in Box",
+      "value": "1"
+    },
+    {
+      "label": "Notes",
+      "value": "Do not scan \"Item Has Been Pulled For a Digitization Project\" sheet"
+    },
+    {
+      "label": "PersonalSubject",
+      "value": ""
+    },
+    {
+      "label": "Language",
+      "value": ""
+    },
+    {
+      "label": "Filename adjustment",
+      "value": ""
+    }
+  ],
+  "description": "Correspondence, notes (LIUNA, APRI)",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://aadhum.mith.us/labor/062534/1/canvas",
+          "@type": "sc:Canvas",
+          "label": "0001",
+          "thumbnail": {
+            "service": {
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ],
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/56e04012aca83d17d1d143037da5c0bf"
+            },
+            "@id": "http://aadhum.mith.us/images/56e04012aca83d17d1d143037da5c0bf/full/425,/0/default.jpg"
+          },
+          "height": 4400,
+          "width": 3396,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/labor/062534/1/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/56e04012aca83d17d1d143037da5c0bf/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4400,
+                "width": 3396,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/56e04012aca83d17d1d143037da5c0bf",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/labor/062534/1/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/labor/062534/2/canvas",
+          "@type": "sc:Canvas",
+          "label": "0002",
+          "thumbnail": {
+            "service": {
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ],
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/8555ec94cf5ec3b578dedd2ab1909779"
+            },
+            "@id": "http://aadhum.mith.us/images/8555ec94cf5ec3b578dedd2ab1909779/full/425,/0/default.jpg"
+          },
+          "height": 4384,
+          "width": 3396,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/labor/062534/2/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/8555ec94cf5ec3b578dedd2ab1909779/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4384,
+                "width": 3396,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/8555ec94cf5ec3b578dedd2ab1909779",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/labor/062534/2/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/labor/062534/3/canvas",
+          "@type": "sc:Canvas",
+          "label": "0003",
+          "thumbnail": {
+            "service": {
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ],
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/2b8a1a88af1e4750ec777003c02bcc7a"
+            },
+            "@id": "http://aadhum.mith.us/images/2b8a1a88af1e4750ec777003c02bcc7a/full/425,/0/default.jpg"
+          },
+          "height": 4408,
+          "width": 3396,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/labor/062534/3/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/2b8a1a88af1e4750ec777003c02bcc7a/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4408,
+                "width": 3396,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/2b8a1a88af1e4750ec777003c02bcc7a",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/labor/062534/3/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/labor/062534/4/canvas",
+          "@type": "sc:Canvas",
+          "label": "0004",
+          "thumbnail": {
+            "service": {
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ],
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/72904368c41c937a9cbdfae5c626f238"
+            },
+            "@id": "http://aadhum.mith.us/images/72904368c41c937a9cbdfae5c626f238/full/423,/0/default.jpg"
+          },
+          "height": 4426,
+          "width": 3384,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/labor/062534/4/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/72904368c41c937a9cbdfae5c626f238/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4426,
+                "width": 3384,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/72904368c41c937a9cbdfae5c626f238",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/labor/062534/4/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/labor/062534/5/canvas",
+          "@type": "sc:Canvas",
+          "label": "0005",
+          "thumbnail": {
+            "service": {
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ],
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/8ad5fbce4287acef12931a03f504b2c7"
+            },
+            "@id": "http://aadhum.mith.us/images/8ad5fbce4287acef12931a03f504b2c7/full/423,/0/default.jpg"
+          },
+          "height": 4420,
+          "width": 3384,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/labor/062534/5/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/8ad5fbce4287acef12931a03f504b2c7/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4420,
+                "width": 3384,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/8ad5fbce4287acef12931a03f504b2c7",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/labor/062534/5/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/labor/062534/6/canvas",
+          "@type": "sc:Canvas",
+          "label": "0006",
+          "thumbnail": {
+            "service": {
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ],
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/b5b1b7799935a891c57c425a29c5238c"
+            },
+            "@id": "http://aadhum.mith.us/images/b5b1b7799935a891c57c425a29c5238c/full/423,/0/default.jpg"
+          },
+          "height": 4416,
+          "width": 3384,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/labor/062534/6/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/b5b1b7799935a891c57c425a29c5238c/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4416,
+                "width": 3384,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/b5b1b7799935a891c57c425a29c5238c",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/labor/062534/6/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/labor/062534/7/canvas",
+          "@type": "sc:Canvas",
+          "label": "0007",
+          "thumbnail": {
+            "service": {
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ],
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/af93439a54663b211d1a5a3c01d51850"
+            },
+            "@id": "http://aadhum.mith.us/images/af93439a54663b211d1a5a3c01d51850/full/425,/0/default.jpg"
+          },
+          "height": 4400,
+          "width": 3396,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/labor/062534/7/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/af93439a54663b211d1a5a3c01d51850/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4400,
+                "width": 3396,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/af93439a54663b211d1a5a3c01d51850",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/labor/062534/7/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/labor/062534/8/canvas",
+          "@type": "sc:Canvas",
+          "label": "0008",
+          "thumbnail": {
+            "service": {
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ],
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/c58c5f5673f8a47edc44520b81ac5779"
+            },
+            "@id": "http://aadhum.mith.us/images/c58c5f5673f8a47edc44520b81ac5779/full/424,/0/default.jpg"
+          },
+          "height": 4408,
+          "width": 3392,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/labor/062534/8/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/c58c5f5673f8a47edc44520b81ac5779/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4408,
+                "width": 3392,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/c58c5f5673f8a47edc44520b81ac5779",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/labor/062534/8/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

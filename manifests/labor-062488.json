@@ -1,0 +1,372 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://aadhum.mith.us/manifests/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Teachers, American Federation of: Black Caucus, 1977",
+  "metadata": [
+    {
+      "label": "Series",
+      "value": ""
+    },
+    {
+      "label": "RequestedActions",
+      "value": ""
+    },
+    {
+      "label": "Identifier",
+      "value": "aflcio_rg9_003_Box24_Folder25"
+    },
+    {
+      "label": "Reshelved",
+      "value": "yes"
+    },
+    {
+      "label": "",
+      "value": ""
+    },
+    {
+      "label": "Temporal Coverage",
+      "value": ""
+    },
+    {
+      "label": "AccessionNumber",
+      "value": ""
+    },
+    {
+      "label": "Contributor Role",
+      "value": ""
+    },
+    {
+      "label": "MediaType",
+      "value": "Text"
+    },
+    {
+      "label": "Subject URIs",
+      "value": ""
+    },
+    {
+      "label": "Rights Holder",
+      "value": ""
+    },
+    {
+      "label": "Format",
+      "value": ""
+    },
+    {
+      "label": "Geographic coverage",
+      "value": ""
+    },
+    {
+      "label": "Extent",
+      "value": "4"
+    },
+    {
+      "label": "InspectionNotes",
+      "value": ""
+    },
+    {
+      "label": "Date or Date range",
+      "value": "1977"
+    },
+    {
+      "label": "Creator Role",
+      "value": ""
+    },
+    {
+      "label": "Filename from vendor",
+      "value": ""
+    },
+    {
+      "label": "Creator",
+      "value": ""
+    },
+    {
+      "label": "Folder",
+      "value": "25"
+    },
+    {
+      "label": "Shipment Box",
+      "value": "Labor_Box1"
+    },
+    {
+      "label": "CorpSubject URI",
+      "value": ""
+    },
+    {
+      "label": "PersonalSubject URI",
+      "value": ""
+    },
+    {
+      "label": "Alternate Title",
+      "value": ""
+    },
+    {
+      "label": "Archival Collection",
+      "value": "aflcio_rg9_003"
+    },
+    {
+      "label": "DateAndInitials",
+      "value": "08282018CSP"
+    },
+    {
+      "label": "Contributor",
+      "value": ""
+    },
+    {
+      "label": "Subseries",
+      "value": ""
+    },
+    {
+      "label": "FilenameRoot",
+      "value": "labor-062488"
+    },
+    {
+      "label": "Changed on Drive",
+      "value": ""
+    },
+    {
+      "label": "Box",
+      "value": "24"
+    },
+    {
+      "label": "Title",
+      "value": "Teachers, American Federation of: Black Caucus, 1977"
+    },
+    {
+      "label": "Provider/Publisher",
+      "value": ""
+    },
+    {
+      "label": "Rights",
+      "value": ""
+    },
+    {
+      "label": "Subject",
+      "value": ""
+    },
+    {
+      "label": "Item",
+      "value": ""
+    },
+    {
+      "label": "Description/Summary",
+      "value": "Statement from the Black Caucus of the AFT, affirmative action, California Federation of Teachers"
+    },
+    {
+      "label": "Date Attribute",
+      "value": ""
+    },
+    {
+      "label": "CorpSubject",
+      "value": ""
+    },
+    {
+      "label": "Returned in Box",
+      "value": "4"
+    },
+    {
+      "label": "Notes",
+      "value": "Do not scan \"Item Has Been Pulled For a Digitization Project\" sheet"
+    },
+    {
+      "label": "PersonalSubject",
+      "value": ""
+    },
+    {
+      "label": "Language",
+      "value": ""
+    },
+    {
+      "label": "Filename adjustment",
+      "value": ""
+    }
+  ],
+  "description": "Statement from the Black Caucus of the AFT, affirmative action, California Federation of Teachers",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://aadhum.mith.us/labor/062488/1/canvas",
+          "@type": "sc:Canvas",
+          "label": "0001",
+          "thumbnail": {
+            "service": {
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ],
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/461a2e4d388cf7452582a37cee7ac7b1"
+            },
+            "@id": "http://aadhum.mith.us/images/461a2e4d388cf7452582a37cee7ac7b1/full/414,/0/default.jpg"
+          },
+          "height": 4350,
+          "width": 3312,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/labor/062488/1/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/461a2e4d388cf7452582a37cee7ac7b1/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4350,
+                "width": 3312,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/461a2e4d388cf7452582a37cee7ac7b1",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/labor/062488/1/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/labor/062488/2/canvas",
+          "@type": "sc:Canvas",
+          "label": "0002",
+          "thumbnail": {
+            "service": {
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ],
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/62284fee2ad619f95ba4861dea6f23ad"
+            },
+            "@id": "http://aadhum.mith.us/images/62284fee2ad619f95ba4861dea6f23ad/full/410,/0/default.jpg"
+          },
+          "height": 4326,
+          "width": 3282,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/labor/062488/2/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/62284fee2ad619f95ba4861dea6f23ad/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4326,
+                "width": 3282,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/62284fee2ad619f95ba4861dea6f23ad",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/labor/062488/2/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/labor/062488/3/canvas",
+          "@type": "sc:Canvas",
+          "label": "0003",
+          "thumbnail": {
+            "service": {
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ],
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/b4feae09692dc496ac54015d09843dcc"
+            },
+            "@id": "http://aadhum.mith.us/images/b4feae09692dc496ac54015d09843dcc/full/410,/0/default.jpg"
+          },
+          "height": 4322,
+          "width": 3278,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/labor/062488/3/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/b4feae09692dc496ac54015d09843dcc/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4322,
+                "width": 3278,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/b4feae09692dc496ac54015d09843dcc",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/labor/062488/3/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "http://aadhum.mith.us/labor/062488/4/canvas",
+          "@type": "sc:Canvas",
+          "label": "0004",
+          "thumbnail": {
+            "service": {
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "qualities": [
+                    "default"
+                  ],
+                  "formats": [
+                    "jpg"
+                  ]
+                }
+              ],
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://aadhum.mith.us/images/4485d3df1384a17fe503b4e890afbaf4"
+            },
+            "@id": "http://aadhum.mith.us/images/4485d3df1384a17fe503b4e890afbaf4/full/411,/0/default.jpg"
+          },
+          "height": 4353,
+          "width": 3286,
+          "images": [
+            {
+              "@id": "http://aadhum.mith.us/labor/062488/4/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://aadhum.mith.us/images/4485d3df1384a17fe503b4e890afbaf4/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4353,
+                "width": 3286,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://aadhum.mith.us/images/4485d3df1384a17fe503b4e890afbaf4",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://aadhum.mith.us/labor/062488/4/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
